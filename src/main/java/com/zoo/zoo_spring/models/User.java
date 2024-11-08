@@ -1,0 +1,27 @@
+package com.zoo.zoo_spring.models;
+
+import jakarta.persistence.*;
+import lombok.Data;
+
+@Entity
+@Data
+@Table(name = "user", schema = "public", catalog = "zoo")
+public class User {
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @Column(name = "user_id")
+    private Long userId;
+
+    @Column(name = "user_name")
+    private String userName;
+
+    @Column(name = "user_age")
+    private int userAge;
+
+    @Column(name = "user_role")
+    private String userRole;
+
+    @Column(name = "user_password")
+    private String userPassword;
+
+}
