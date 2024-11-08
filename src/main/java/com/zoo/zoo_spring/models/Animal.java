@@ -1,6 +1,5 @@
 package com.zoo.zoo_spring.models;
 
-import org.springframework.data.relational.core.mapping.Table;
 import jakarta.persistence.*;
 import lombok.Data;
 
