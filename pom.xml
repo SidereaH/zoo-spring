@@ -62,7 +62,7 @@
 <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-core</artifactId>
-    <version>5.6.15.Final</version>
+    <version>6.0.0.Final</version>
     <type>pom</type>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
@@ -76,13 +76,13 @@
     <groupId>jakarta.persistence</groupId>
     <artifactId>jakarta.persistence-api</artifactId>
     <version>3.2.0</version>
-</dependency>
-        <!-- SLF4J for logging -->
+            </dependency>
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.32</version>
-        </dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-jdbc</artifactId>
+    <version>3.2.1.RELEASE</version>
+</dependency>
+
  
 	</dependencies>
 
